@@ -55,7 +55,7 @@ my_df %>%
 write.table(dat_sum, "tidy_data.txt", row.names = F, quote = F, sep = ",")
 
 
-##------------------------------------------------------------------------
+##---------------------------------------------------------------------------
 
 # In case the dplyr package is not available or cannot be loaded for any reason, use the following code to summarize the dataset     
 
