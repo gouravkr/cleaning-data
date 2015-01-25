@@ -54,6 +54,9 @@ my_df %>%
 # Write the final output into a file named tidy_data.csv
 write.table(dat_sum, "tidy_data.txt", row.names = F, quote = F, sep = ",")
 
+
+##------------------------------------------------------------------------
+
 # In case the dplyr package is not available or cannot be loaded for any reason, use the following code to summarize the dataset     
 
 subjects <- 1:30 #create the subject vector
